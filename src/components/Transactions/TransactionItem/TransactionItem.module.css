@@ -1,0 +1,4 @@
+.transactionItem td:first-child {
+  text-align: left;
+  padding-left: 40px;
+}

@@ -1,0 +1,43 @@
+.item {
+  display: flex;
+  align-items: center;
+
+  min-width: 200px;
+  padding: 8px 8px 8px 0;
+
+  background-color: azure;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.isOnline {
+  display: block;
+  height: 32px;
+  width: 16px;
+  background-color: green;
+  border-bottom-right-radius: 16px;
+  border-top-right-radius: 16px;
+  margin-right: 12px;
+}
+
+.isOfline {
+  display: block;
+  height: 32px;
+  width: 16px;
+  background-color: red;
+  border-bottom-right-radius: 16px;
+  border-top-right-radius: 16px;
+  margin-right: 12px;
+}
+
+.avatar {
+  margin-right: 8px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 500;
+}

@@ -1,0 +1,10 @@
+.statistic {
+  width: 350px;
+  background-color: azure;
+}
+
+.statisticTitle {
+  padding: 18px 8px;
+  font-size: 20px;
+  text-align: center;
+}
